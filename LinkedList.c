@@ -212,7 +212,7 @@ int main()
 	
 	while(1)
 	{	
-		printf("\n\n\n***************************Welcome***************************");
+		printf("\n\n\n***************************Welcome***************************\n");
 		printf("Enter \n1 : Insert at first position\t2 : Insert at Last\n3 : Delete at first \t\t4 : Delete at Last\n5 : Insert at position\t\t6 : Delete at postion\n7 : Display and Count\t \t8 : Exit\n\n\n");
 
 		scanf("%d",&x);
