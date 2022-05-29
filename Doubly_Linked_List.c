@@ -23,7 +23,7 @@ typedef struct node ** PPNODE;
 //  Input : Pointer , Integer
 //  Output: void
 //  Description : Accepts pointer to head node as first parameter and Integer as second pameter  
-//				  Inserts node in DOUBLY LINKED LIST at 1st position
+//		  Inserts node in DOUBLY LINKED LIST at 1st position
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -57,7 +57,7 @@ void InsertFirst(PPNODE head, int no)
 //  Input : Pointer , Integer
 //  Output: void 
 //  Description : Accepts pointer to head node as first parameter and Integer as second pameter  
-//				  Inserts node in DOUBLY LINKED LIST at LAST position
+//		  Inserts node in DOUBLY LINKED LIST at LAST position
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -97,7 +97,7 @@ void InsertLast(PPNODE head, int no)
 // 	Input : Pointer
 //  Output: void
 //  Description : Accepts pointer to head node as parameter  
-//				  Deletes node in DOUBLY LINKED LIST at first position
+//		  Deletes node in DOUBLY LINKED LIST at first position
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -123,7 +123,7 @@ void DeleteFirst(PPNODE head)
 // 	Input : Pointer
 //  Output: void
 //  Description : Accepts pointer to head node as parameter  
-//				  Deletes node in DOUBLY LINKED LIST at last position
+//		  Deletes node in DOUBLY LINKED LIST at last position
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -157,7 +157,7 @@ void DeleteLast(PPNODE head)
 // 	Input : Pointer
 //  Output: void
 //  Description : Accepts first parameter as Address of head node
-//				  Displays all node in DOUBLY LINKED LIST 
+//		  Displays all node in DOUBLY LINKED LIST 
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -179,7 +179,7 @@ void Display(PNODE head)
 //	Input : Pointer
 //  Output: Integer
 //  Description : Accepts first parameter as Address of head node
-//				  Counts no of nodes in DOUBLY LINKED LIST
+//		  Counts no of nodes in DOUBLY LINKED LIST
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -203,7 +203,7 @@ int Count(PNODE head)
 //  Input : Pointer , Integer , Integer
 //  Output: void
 //  Description :  Accepts first parameter as pointer to head node second as  data in no and third as position in iPos
-//				  Inserts node in DOUBLY LINKED LIST at iPos position
+//		   Inserts node in DOUBLY LINKED LIST at iPos position
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
 //
@@ -258,7 +258,7 @@ void InsertAtPos(PPNODE head, int no, int iPos)
 //  Input : Pointer, Integer 
 //  Output: void
 //  Description : Accepts first parameter as pointer to head node and Second parameter as position in iPos
-//				  Deletes node in DOUBLY LINKED LIST at iPos position
+//		  Deletes node in DOUBLY LINKED LIST at iPos position
 //
 //  Author : Kaushal Sachin Kapadnis
 //	Date : 26-6-2022
